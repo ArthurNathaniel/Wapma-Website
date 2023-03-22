@@ -1,0 +1,64 @@
+body {
+    background-color: #faf9fc;
+}
+
+.about {
+    margin-block: 50px;
+    padding: 0 5%;
+}
+
+.focus {
+    background-color: #eee;
+    margin-bottom: 50px;
+    padding-block: 30px;
+}
+
+.service-box {
+    background-color: #fff;
+    background-color: #02adc6;
+    padding-block: 250px;
+    color: #fff;
+}
+
+.service-box:hover {
+    background-color: #02adc6;
+    /* background-color: #fff; */
+
+}
+
+/* Mission & Vision */
+
+.mission {
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    margin-block: 100px;
+}
+
+.mission-text {
+    background-color: #eaedf5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-top-left-radius: 90px;
+    padding: 0 5%;
+    padding-block: 150px;
+    position: relative;
+}
+.mission-text img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom:-80px;
+}
+
+.mission-text h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+}
+
+.mission-text h4 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+
+}
