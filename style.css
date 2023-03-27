@@ -205,3 +205,44 @@ footer h4{
     color: #faf9fc;
     font-weight: 800;
 }
+
+
+
+.image-overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .image-overlay .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .image-overlay:hover .overlay {
+    height: 100%;
+  }
+  .image-overlay .overlay h2,
+  .image-overlay .overlay p {
+    color: #fff;
+    /* e */
+  }
+  .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 0 5%;
+    color: #fff;
+
+  }
+  
