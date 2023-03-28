@@ -8,9 +8,9 @@ body {
 .navbar {
     padding: 0 5%;
     padding-block: 10px;
-    /* font-weight: 600; */
-    /* box-shadow: 5px 5px 10px; */
+    font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .hero-text {
@@ -109,7 +109,6 @@ body {
 .about-home-text h3 {
     color: #82530e;
     font-weight: 800;
-
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -179,29 +178,32 @@ body {
     margin-bottom: 50px;
 }
 
-.our-news h3{
+.our-news h3 {
     font-size: 45px;
     text-align: center;
     padding-bottom: 20px;
 }
 
 
-footer{
+footer {
     background-color: #8E806A;
     color: #faf9fc;
     padding: 0 5%;
     padding-block: 50px;
 }
-footer li a{
+
+footer li a {
     color: #fff;
     text-decoration: none;
-    text-transform:inherit;
- 
+    text-transform: inherit;
+
 }
-footer li{
+
+footer li {
     list-style-type: none;
 }
-footer h4{
+
+footer h4 {
     color: #faf9fc;
     font-weight: 800;
 }
@@ -211,13 +213,15 @@ footer h4{
 .image-overlay {
     position: relative;
     overflow: hidden;
-  }
-  .image-overlay img {
+}
+
+.image-overlay img {
     display: block;
     width: 100%;
     height: auto;
-  }
-  .image-overlay .overlay {
+}
+
+.image-overlay .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -227,16 +231,19 @@ footer h4{
     width: 100%;
     height: 0;
     transition: .5s ease;
-  }
-  .image-overlay:hover .overlay {
+}
+
+.image-overlay:hover .overlay {
     height: 100%;
-  }
-  .image-overlay .overlay h2,
-  .image-overlay .overlay p {
+}
+
+.image-overlay .overlay h2,
+.image-overlay .overlay p {
     color: #fff;
     /* e */
-  }
-  .overlay{
+}
+
+.overlay {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,5 +251,40 @@ footer h4{
     padding: 0 5%;
     color: #fff;
 
-  }
-  
+}
+
+.ne {
+    background-color: #eaedf5;
+    padding: 0 5%;
+    padding-block: 50px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.new {
+    background-color: #eaedf5;
+    padding: 0 5%;
+    padding-block: 50px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.pee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 0 5%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-left:100px ;
+    padding-right:100px ;
+color: #fff;
+}
+
+.pee h1{
+    font-size: 60px;
+}
